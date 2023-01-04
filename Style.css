@@ -275,6 +275,7 @@ a:hover {
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
+    padding-bottom: 25px;
 }
 #menuToggle input {
     display: block;
@@ -322,7 +323,7 @@ a:hover {
     position: absolute;
     width: 300px;
     height: 1000px;
-    margin: -100px 0 0 -90px;
+    margin: -100px 0 0 -50px;
     padding-top: 125px;
     background: #008040;
     list-style-type: none;
@@ -332,7 +333,7 @@ a:hover {
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 }
 #menu li {
-    padding: 10px 0;
+    padding: 10px 15px;
     font-size: 22px;
 }
 #menuToggle input:checked ~ ul {
@@ -363,7 +364,7 @@ float: right;
 margin-right: 10px;
 }
 .item-submenu {
-margin-bottom: -14px;
+margin-bottom: -1px;
 }
 
 
