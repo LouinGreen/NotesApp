@@ -41,11 +41,66 @@ Properties
 every data type has properties for example strings have the length property used like so,
 console.log('Hello'.length); // Prints 5 to the console
 
+Variables
+label and store data in memory
+They are not values but they contain values
+   1. Create a variable with a descriptive name.
+   2. Store or update information stored in a variable.
+   3. Reference or “get” information stored in a variable.
+In camel casing you group words into one, the first word is lowercase, then every word that follows will have its first letter uppercased. (e.g. camelCaseEverything). 
+Use let and const, to create, or declare, variables. Prior to the ES6, programmers could only use the var keyword to declare variables.
+Ex of outdated method=
+var myName = 'Arya';
+console.log(myName);
+= is the assignment operator. It assigns the value ('Arya') to the variable (myName)
+var, short for variable, is a JavaScript keyword that creates, or declares, a new variable.
+'Arya' is the value assigned (=) to the variable myName. You can also say that the myName variable is initialized with a value of 'Arya'.
+After the variable is declared, the string value 'Arya' is printed to the console by referencing the variable name: console.log(myName)
+    Variable names cannot start with numbers.
+    Variable names are case sensitive, so myName and myname would be different variables. It is bad practice to create two variables that have the same name using different cases.
+    Variable names cannot be the same as keywords. For a comprehensive list of keywords check out MDN’s keyword documentation.
+The let keyword signals that the variable can be reassigned a different value
+Ex. 
+let meal = 'Enchiladas';
+console.log(meal); // Output: Enchiladas
+meal = 'Burrito';
+console.log(meal); // Output: Burrito
+be aware of when using let (and even var) is that we can declare a variable without assigning the variable a value. In such a case, the variable will be automatically initialized with a value of undefined:
+Ex.
+let price;
+console.log(price); // Output: undefined
+price = 350;
+console.log(price); // Output: 350
+const variable cannot be reassigned because it is constant. If you try to reassign a const variable, you’ll get a TypeError
+Constant variables must be assigned a value when declared. If you try to declare a const variable without a value, you’ll get a SyntaxError
+Math with variables example
+let w = 4;
+w = w + 1;
+console.log(w); // Output: 5
+other examples
+let x = 20;
+x -= 5; // Can be written as x = x - 5
+console.log(x); // Output: 15
+let y = 50;
+y *= 2; // Can be written as y = y * 2
+console.log(y); // Output: 100
+let z = 8;
+z /= 2; // Can be written as z = z / 2
+console.log(z); // Output: 4
+ex 2
+levelUp += 5
+powerLevel -= 100
+multiplyMe *= 11
+quarterMe /= 4
 
 
 
 
 resources 
+keywords for variables
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#keywords
+var (fallout tactics may use this?
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
 math tricks
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 built in objects 
@@ -53,3 +108,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 Checks if is integer true or false, 
 console.log(Number.isInteger(2017));
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
+java vs javascript
+https://www.youtube.com/watch?v=Wpeym1_lmPo
+How to build a web dev portfolio
+https://discuss.codecademy.com/t/guide-how-to-build-a-web-dev-portfolio/394816?_gl=1*kawg1v*_ga*NzAxMzE1OTU2MC4xNjcxNjY2NzY2*_ga_3LRZM6TM9L*MTY3MzMxMTQzNC41LjAuMTY3MzMxMTQzNC42MC4wLjA.
