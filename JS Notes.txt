@@ -1,0 +1,55 @@
+Object.method();
+
+this is how objects and methods are setup
+console.log() lets you print or log whatevers in the parathesis to the console
+semicolon denotes the end of line of code
+
+
+comments
+single line is 
+//
+section is 
+/*
+*/
+
+
+
+math operators for numbers in parathesis 
+    Add: +
+    Subtract: -
+    Multiply: *
+    Divide: /
+    Remainder: %
+
+
+
+Methods
+actions we can perform.
+We call, or use, these methods by appending an instance with:
+    a period (the dot operator)
+    the name of the method
+    opening and closing parentheses
+E.g. 'example string'.methodName()
+more examples
+console.log('hello'.toUpperCase()); // Prints 'HELLO'
+console.log('Hey'.startsWith('H')); // Prints true
+console.log('    Remove whitespace   '.trim()); //removes white space
+console.log(Math.floor(Math.random() * 50)); // Prints a random whole number between 0 and 50, math.floor rounds it down to nearesty whole number, * prints random number betwqeen 0 and the value
+console.log(Math.ceil(43.8)); // returns smallest integer greater than or equal to 43.8
+
+Properties
+every data type has properties for example strings have the length property used like so,
+console.log('Hello'.length); // Prints 5 to the console
+
+
+
+
+
+resources 
+math tricks
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+built in objects 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
+Checks if is integer true or false, 
+console.log(Number.isInteger(2017));
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
