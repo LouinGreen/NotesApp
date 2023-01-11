@@ -93,6 +93,47 @@ powerLevel -= 100
 multiplyMe *= 11
 quarterMe /= 4
 
+Variable Operators
+The increment operator will increase the value of the variable by 1. The decrement operator will decrease the value of the variable by 1. For example:
+let a = 10;
+a++;
+console.log(a); // Output: 11
+let b = 20;
+b--;
+console.log(b); // Output: 19
+The + operator can be used to combine two string values even if those values are being stored in variables:
+let myPet = 'armadillo';
+console.log('I own a pet ' + myPet + '.'); 
+// Output: 'I own a pet armadillo.'
+
+String interpolation
+In the ES6 version of JavaScript, we can insert, or interpolate, variables into strings using template literals. Check out the following example where a template literal is used to log strings together:
+Ex:
+const myPet = 'armadillo';
+console.log(`I own a pet ${myPet}.`);
+// Output: I own a pet armadillo.
+These help with readability 
+Ex2
+let myName = "LouiV"
+let myCity = "Cle"
+console.log(`My name is ${myName}. My favorite city is ${myCity}`);
+// Prints My name is LouiV. My favorite city is Cle to console
+
+Check data type
+The typeof operator checks the value to its right and returns, or passes back, a string of the data type.
+Ex:
+const unknown1 = 'foo';
+console.log(typeof unknown1); // Output: string
+const unknown2 = 10;
+console.log(typeof unknown2); // Output: number
+const unknown3 = true; 
+console.log(typeof unknown3); // Output: boolean
+
+
+
+
+
+
 
 
 
@@ -112,3 +153,20 @@ java vs javascript
 https://www.youtube.com/watch?v=Wpeym1_lmPo
 How to build a web dev portfolio
 https://discuss.codecademy.com/t/guide-how-to-build-a-web-dev-portfolio/394816?_gl=1*kawg1v*_ga*NzAxMzE1OTU2MC4xNjcxNjY2NzY2*_ga_3LRZM6TM9L*MTY3MzMxMTQzNC41LjAuMTY3MzMxMTQzNC42MC4wLjA.
+
+
+Projects 
+
+//Working JS weather converter using kelvin as base 
+//const variable for kelvin value
+const kelvin = 0;
+//const variable for celsius value
+const celsius = kelvin - 273;
+//const variable for celsius value
+let fahrenheit = celsius * (9/5) + 32;
+//Floor method to remedy decimals
+fahrenheit = Math.floor(fahrenheit);
+//variable for newton
+let newton = celsius * (33/100)
+newton = Math.floor(newton)
+console.log("The temperature today is " + newton + " degrees Newton.");
