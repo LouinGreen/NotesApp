@@ -170,3 +170,24 @@ fahrenheit = Math.floor(fahrenheit);
 let newton = celsius * (33/100)
 newton = Math.floor(newton)
 console.log("The temperature today is " + newton + " degrees Newton.");
+
+
+//Human age to dog age converter 
+//variable setting my age to 26
+let  myAge = 26;
+//variable to set first two years of dogs life
+let earlyYears = 2;
+//variabe to account for early year ratio
+earlyYears *= 10.5;
+//this makes earlyyears last for 2 years
+let laterYears = myAge - 2;
+//This is ratio of lateryears of dogs life
+laterYears *= 4;
+//Adds variables into one
+let myAgeInDogYears = earlyYears + laterYears;
+//variable of my name in all lower case
+let myName = "LouiV".toLowerCase();
+//logs results to console
+console.log("My name is " + myName + " I am " + myAge + " years old in human years which is " + myAgeInDogYears + " in dog years.");
+
+
