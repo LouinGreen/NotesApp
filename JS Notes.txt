@@ -429,3 +429,44 @@ let myName = "LouiV".toLowerCase();
 console.log("My name is " + myName + " I am " + myAge + " years old in human years which is " + myAgeInDogYears + " in dog years.");
 
 
+Magic 8 ball
+notes
+let randomNumber = Math.floor(Math
+.random() * 8);
+Math.random() returns a value between 0 (inclusive) and 1 (exclusive).
+In order to make this set of numbers range from 0 (inclusive) to 8 (exclusive) we can multiply the returned value by 8.
+Finally, to ensure we only have whole numbers from 0 to 7 we can round down using Math.floor().
+Below is actual project
+//user can enter their name in qoutes
+let userName = "";
+userName ? console.log(`Hello ${userName}`) : console.log("Hello");
+//users question
+const userQuestion = "";
+console.log(userQuestion);
+//random number to control flow answer
+let randomNumber = Math.floor(Math
+.random() * 8);
+//eightball empty variable
+let eightBall = "";
+//use this to decide answer for eightball
+if (randomNumber === 1) {
+  eightBall = 'It is certain'
+} else if (randomNumber === 2) {
+  eightBall = 'It is decidedly so'
+} else if (randomNumber === 3) {
+  eightBall = "That\'s a no from me bud..."
+} else if (randomNumber === 4) {
+  eightBall = "YES!"
+} else if (randomNumber === 5) {
+  eightBall = 'Signs point to yes'
+} else if (randomNumber === 6) {
+  eightBall = 'Outlook not so good'
+} else if (randomNumber === 7) {
+  eightBall = 'Cannot predict now'
+} else if (randomNumber === 8) {
+  eightBall = 'My sources say no'
+} else {
+  eightball = 'Reply hazy try again';
+}
+//logs answer to console
+console.log(eightBall);
