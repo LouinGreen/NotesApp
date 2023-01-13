@@ -470,3 +470,28 @@ if (randomNumber === 1) {
 }
 //logs answer to console
 console.log(eightBall);
+
+
+
+Race day project
+//Generates random number from 1 to 1000
+let raceNumber = Math.floor(Math.random() * 1000);
+//are they early or late?
+const early = false;
+//age of runner
+const age = 17;
+//adds to number if older
+if (age > 18 && early === true) {
+  raceNumber += 1000;
+}
+//generates promnpt based on previous
+if (age > 18 && early === true) {
+  console.log("Congrats! You will race at 9:30am.");
+} else if (age > 18 && early === false) {
+  console.log(`Unfortunately you will race at 11:00am. Happy to have you! Your race number is ${raceNumber}`);
+} else if (age < 18) {
+  console.log(`Congrats you will run at 12:30pm! Your race number is ${raceNumber}`);
+} else {
+  console.log("Please see registration desk.")
+}
+
