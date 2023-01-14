@@ -1,0 +1,6 @@
+const width = 10;
+const height = 6;
+const area =  width * height;
+console.log(area); // Output: 60
+//The above is code to find the area of a rectangle 
+Functions will allow you to plug this code in for any rectangle size to find your area
