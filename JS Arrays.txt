@@ -39,7 +39,8 @@ console.log(seasons);
 
 
 
-
+Resources 
+https://www.codecademy.com/resources/docs/javascript/arrays?page_ref=catalog
 
 
 
