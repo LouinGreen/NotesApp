@@ -1,0 +1,45 @@
+arrays are javascripts way of making list and are ordered like any list, they can store any data type
+    The array is represented by the square brackets [] and the content inside.
+    Each content item inside an array is called an element.
+    There are three different elements inside the array.
+    Each element inside the array is a different data type.
+We can also save an array to a variable.
+Ex.
+let newYearsResolutions = ['Keep a journal', 'Take a falconry class', 'Learn to juggle'];
+
+Arrays are 0 indexed so each value is assigned a number starting from zero that increases from left to right
+Ex.
+cities[0]
+In the code snippet above:
+    cities is an array that has three elements.
+    We’re using bracket notation, [] with the index after the name of the array to access the element.
+    cities[0] will access the element at index 0 in the array cities. You can think of cities[0] as accessing the space in memory that holds the string 'New York'.
+You can also access individual characters in a string using bracket notation and the index. For instance, you can write:
+const hello = 'Hello World';
+console.log(hello[6]);
+// Output: W
+The console will display W since it is the character that is at index 6
+Ex.
+const famousSayings = ['Fortune favors the brave.', 'A joke is a very serious thing.', 'Where there is love there is life.'];
+let listItem = famousSayings[0];
+console.log(listItem);
+console.log(famousSayings[3]);
+//if you log something that isnt value like at the bottom it appears as undefined or falsey
+
+Update Elements
+Once you have access to an element in an array, you can update its value.
+Ex.
+let seasons = ['Winter', 'Spring', 'Summer', 'Fall'];
+seasons[3] = 'Autumn';
+console.log(seasons); 
+//Output: ['Winter', 'Spring', 'Summer', 'Autumn']
+
+
+
+
+
+
+
+
+
+
