@@ -43,7 +43,7 @@ const robot = {
   }
 };
 console.log(robot.provideInfo());
-
+//this doesnt work with arrow function methods
 
 
 
