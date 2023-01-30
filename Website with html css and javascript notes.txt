@@ -1,0 +1,141 @@
+the script tag gets embedded in html this is how javascript gets used in a website or activated in an html document
+EX. (makes a flower border on click)
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<section class = "container">
+  	<img src = "normal.png" id= "myImage">
+  	<p onclick="blooming()">Codecademy</p>
+	</section>
+  <!-- Paste your code in the script element below:  -->
+  <script>
+		function blooming() {
+  var image = document.getElementById('myImage');
+  if (image.src.match("normal")) {
+    image.src = "flower.png";
+  } else {
+    image.src = "normal.png";
+  }    
+}    
+  </script>
+</body>  
+</html>
+
+Because of separation of concerns or SoC, we always make javascript in a separate file.
+for this we will use a src attribute to link to our javascript file
+Ex.
+<script src="./exampleScript.js"></script>
+this links to a js file in our projects folder using a relative path method of linking, if its hosted externally or through a cdn then use that location instead
+
+
+
+
+
+
+
+
+
+
+project change font on click
+html,
+<!DOCTYPE html>
+<html> 
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add your script tag here -->
+		<script src="./script.js"></script>
+  </head>
+  <body onclick="newStyle();">
+    <p class="centered" id="logo">Codecademy</p>
+	</body>
+</html>
+javascript
+function newStyle() {
+  let newColor = '';
+  let newFont = ''; 
+  let x = Math.floor(Math.random()*7); 
+  switch (x){
+    case 0:
+      newColor = 'red';
+      newFont = 'Times New Roman'; 
+      break;
+    case 1: 
+      newColor = 'blue';
+      newFont = 'Florence, cursive'; 
+      break;
+    case 2:
+      newColor = 'yellow';
+      newFont = 'Verdana';
+      break; 
+    case 3:
+      newColor= 'purple';
+      newFont = 'Courier New';
+      break
+    case 4:
+      newColor = 'cyan';
+      newFont = 'Georgia'; 
+      break;
+    case 5:
+        newColor = 'maroon';
+        newFont = 'Palatino';
+        break;
+    case 6: 
+        newColor = 'lime';
+        newFont = 'Impact';
+        break;
+  }
+  var elem = document.getElementById('logo');
+  elem.style.color = newColor;
+  elem.style.fontFamily = newFont; 
+}
+css
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  length: 300px;
+  width:700px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  color: #459287;
+}
+button {
+  height:40px;
+  width: 160px;
+  font-size: 18px;
+  color: white;
+  background-color:#2c5e62;
+  border-radius: 8px;
+}
+p {
+	text-align: center;
+}
+
+
+
+
+
+
+resources
+cdns 
+https://developer.mozilla.org/en-US/docs/Glossary/CDN
+
+
+
