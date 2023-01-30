@@ -115,6 +115,7 @@ addBtn.addEventListener("click", e => {
 
 
 
+
 $(function() {
     $('#menu > .item-submenu .submenu').click(function(){
         if($('.item-submenu .sub-menu').css('display') == 'none'){
