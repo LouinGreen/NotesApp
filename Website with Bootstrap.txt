@@ -18,6 +18,34 @@ EX2.
     <title>News Website</title>
 </head>
 
+Intro to the Grid
+Bootstrap simplifies the layout of a website using a grid system. For us to fully take advantage of Bootstrap’s grid system, we need to understand how to structure our HTML.
+At the heart of it, containers are the basis of Bootstrap’s grid. Inside containers, we nest rows as immediate children. Then, nested inside rows are columns. Inside columns, we put our actual content. Take a look below at an example of this nesting pattern. Don’t worry about the syntax of rows and columns just yet, but do take note of how our HTML is organized:
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <!-- A column inside a row inside a container! -->
+    </div>
+  </div>
+</div>
+We can gain even more control of our layout once we start nesting rows inside columns and setting widths for our columns! But, first, let’s review how to create a layout using Bootstrap.
+Take a look at the provided diagram and key — container, rows, columns are color coded.
+The Basic Layout shows the fundamental structure. The Nested Layers shows how to build a more complex layout by nesting rows inside a column. Lastly, the Entire Webpage shows how a webpage can be laid out as a system of containers, rows, and columns.
+https://content.codecademy.com/courses/learn-bootstrap-4/layout-diagram.svg
+
+IMNPORTANT FOR RESPONSIVENESS
+Bootstrap Containers
+Bootstrap uses a grid system based on CSS Flexbox which organizes content in rows or columns. As seen in the previous exercise, Bootstrap also uses rows and columns and in this exercise we’ll learn about the essential Bootstrap container. Using the Bootstrap grid also allows for responsive design, in other words, a website’s layout can change based on the user’s screen size. Read more about grid at Bootstrap’s grid documentation.
+Bootstrap uses classes to apply CSS rulesets — these rulesets dictate the layout and styling of the element. To create a container, necessary for Bootstrap’s grid, we assign a class of "container" to a <div> like so:
+<div class="container"></div>
+The <div> from the example above becomes a Bootstrap container which has a width relative to a user’s screen size, becomes horizontally centered, and has a left and right margin.
+If we wanted the container to take up the entire width of the screen we can assign a class of "container-fluid":
+<div class="container-fluid"></div>
+Knowing how to use documentation is important. We can always check what classes to add using Bootstrap’s grid documentation.
+Note: the Bootstrap site uses CSS notation for classes, which entails having a . before a class name like .example-class-name.
+
+
+
 
 
 
@@ -27,6 +55,12 @@ EX2.
 resources 
 bootstrap documentation
 https://getbootstrap.com/docs/4.1/getting-started/introduction/
+picture of how bbotstrap organizes page rows and columns
+https://content.codecademy.com/courses/learn-bootstrap-4/layout-diagram.svg
+bootstrap grid documentation
+https://getbootstrap.com/docs/4.1/layout/grid/
+css flexbox, read this
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
 
 
 
@@ -38,5 +72,5 @@ https://getbootstrap.com/docs/4.1/getting-started/introduction/
 
 
 
-
-
+Note to self 
+pic yourself up by the Bootstrap
