@@ -1,0 +1,74 @@
+https://webflow.com/made-in-webflow/top
+award sites
+https://webflow.com/webflowconf/webflow-awards#technical-achievement-customer
+
+https://refokus-rich-text-enhancer.webflow.io/
+good text editor, has spoiler boxes, and emojis 
+maybe movie review site or somnething
+
+https://databest.webflow.io/
+use this model 
+add in P&L profit and loss graph
+SLA graph
+Over Under graph 
+
+webflow game
+https://tse-retreat.webflow.io/game
+actually pretty cool speeding feature
+
+https://www.wayside.studio/
+cool mouse effect
+(use this for griot guild maybe?)
+(cigerette mouse clicker with slots menu at start)
+
+https://webflow.com/webflowconf/awards/interactive-sketch-portfolio
+this looks cool sketch pad
+
+https://ready.so/
+seems like a useful calendar!
+
+https://www.wearemodernmuses.com/
+dope effects
+
+https://www.unusual.vc/
+dope map effect
+
+
+
+
+Stuff to use for mikes website
+
+use the iguana effect but replce with a burger or something
+use leaf foggy parallax but replce with kitchen maybe
+add video in beginning of a nice kitchen maybe
+maybe copy menu and side scroll menu also search bar is cool (maybe use for griot guild actually)
+https://www.conservationguide.org/
+cool vibe
+
+https://desserto.webflow.io/
+good model for a food site
+copy floating rocks but replace with food
+copy awards section but make it funny and from random people
+copy food slider section
+copy pie slice animation section
+copy testimonial section
+maybe even contact page as well
+
+https://unofficial-kaws.webflow.io/
+really cool with timeline and everything
+really cool scroll animations i can use
+makes website very dynamic
+
+https://www.svz.io/
+cool animations and colors
+also bottom input part of website would be good
+side menu headers are a nice touch
+
+floating boxes would be good for food items 
+have everything be a link to order food
+maybe auto generate mnenu... idk
+also could use text with image parallax
+also timed scroller would be cool
+good for building clientele
+https://ticketed.webflow.io/
+
