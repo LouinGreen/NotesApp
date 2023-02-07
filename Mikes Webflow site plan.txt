@@ -33,16 +33,39 @@ dope effects
 https://www.unusual.vc/
 dope map effect
 
+https://unofficial-kaws.webflow.io/
+really cool timeline and scroll animations and very dynamic
+
+
+
+
+
+
+
+Website plan
+
+First Section and nav bar =
+cooking video (conservation website) with clickable floating food items from menu (desserto website)
+Have nav bar, dropdown menu and side social media links (conservation site) have everything disappear after section
+
+Second Section =
+
+
+
+
+
+
+
 
 
 
 Stuff to use for mikes website
 
+https://www.conservationguide.org/
 use the iguana effect but replce with a burger or something
 use leaf foggy parallax but replce with kitchen maybe
 add video in beginning of a nice kitchen maybe
 maybe copy menu and side scroll menu also search bar is cool (maybe use for griot guild actually)
-https://www.conservationguide.org/
 cool vibe
 
 https://desserto.webflow.io/
@@ -53,11 +76,6 @@ copy food slider section
 copy pie slice animation section
 copy testimonial section
 maybe even contact page as well
-
-https://unofficial-kaws.webflow.io/
-really cool with timeline and everything
-really cool scroll animations i can use
-makes website very dynamic
 
 https://www.svz.io/
 cool animations and colors
