@@ -49,7 +49,7 @@ cooking video (conservation website) with clickable floating food items from men
 Have nav bar, dropdown menu and side social media links (conservation site) have everything disappear after section
 
 Second Section =
-
+Have side menu headers (svz website)
 
 
 
