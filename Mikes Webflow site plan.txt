@@ -45,13 +45,27 @@ really cool timeline and scroll animations and very dynamic
 Website plan
 
 First Section and nav bar =
-cooking video (conservation website) with clickable floating food items from menu (desserto website)
+cooking video (conservation website) with floating boxes for reviews  (ticketed website)
 Have nav bar, dropdown menu and side social media links (conservation site) have everything disappear after section
 
 Second Section =
 Have side menu headers (svz website)
+Food menu with swiper section for main popular course meals (desserto website)
 
+Transition 1 =
+parallax effect of kitchen maybe with waitstaff too (conservation website, leaf section)
 
+Third Section =
+Have a story section showing humble beginnings text with image parallax (ticketed website)
+have floating and clickable food items (desserto website)
+have giant burger animation (conservation website, iguana)
+
+Transition 2 =
+pizza slice animation (desserto website)
+
+Fourth final section and footer =
+nice footer (svz website style)
+automated testimonial slider 
 
 
 
