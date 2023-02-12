@@ -68,6 +68,26 @@ nice footer (svz website style)
 automated testimonial slider 
 
 
+needed links
+
+webflow
+https://webflow.com/interactions-animations
+also webflow
+https://university.webflow.com/courses/interactions-and-animations-course?video=nRzyskFOjMQ
+ticketed ex
+https://ticketed.webflow.io/
+svz ex
+https://www.svz.io/
+desserto
+https://desserto.webflow.io/
+conservative
+https://www.conservationguide.org/
+background webflow tutorial
+https://university.webflow.com/lesson/background-styles-overview#background-video
+cooking video i wanted
+https://coverr.co/videos/chef-cooking-in-a-restaurant--d7i8bxpC5k
+
+
 
 
 
