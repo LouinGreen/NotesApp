@@ -93,9 +93,33 @@ mix with cinematic cooking montage
 also add in some high end cooking scenes
 Probably gonna have to make my own video and then uplaod to Youtube and then embed.
 
-custom code way to do it
-https://www.bing.com/videos/search?q=webflow+youtube+video+remove+play+button&cvid=6e1f790672ef40b882dc04e89a69df41&aqs=edge..69i57j0.17731j0j1&pglt=43&PC=ACTS&ru=%2fsearch%3fq%3dwebflow%2byoutube%2bvideo%2bremove%2bplay%2bbutton%26cvid%3d6e1f790672ef40b882dc04e89a69df41%26aqs%3dedge..69i57j0.17731j0j1%26pglt%3d43%26FORM%3dANNTA1%26PC%3dACTS&view=detail&mmscn=vwrc&mid=A71C67C86451A0C5F8A6A71C67C86451A0C5F8A6&FORM=WRVORC
 
+Add this maybe
+https://www.youtube.com/watch?v=4VaLk5cIHME
+
+copy this website actually
+https://barrio-tacos.com/locations/willoughby/
+
+
+
+fake hilarious review maker
+https://randommer.io/Text/Review
+
+set images to absolute then toggle z index
+
+shadow dems
+333
+20
+7
+3
+
+top meals
+ 
+cookies 
+beef wellington 
+chicken sandwhich
+pies
+donuts
 
 
 
